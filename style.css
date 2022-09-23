@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  /* width: 100%;
+  height: 100vh; */
+  background-color: #2d25a0;
+}
+/* ----------------------------- */
+/* -------navbar--------- */
+/* ------------------------------- */
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 25px;
+  
+}
+nav{
+  flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-weight: 800px;
+  color: whitesmoke;
+}
+.nav-link{
+  text-decoration: none;
+  border: 1px solid rgb(248, 30, 103);
+  padding: 10px 40px;
+  background-color: rgb(248, 30, 103);
+  color: whitesmoke;
+}
+
+.login{
+  height: 15px;
+  width: 15px;
+}
+
+/* ---------------------- */
+/* ---------Top part-------- */
+/* -------------------------- */
+
+.information{
+  margin-top: 80px;
+  margin-left: 10%;
+  display: flex;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+.text-head h1{
+  height: 230px;
+  width: 485px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.head-img{
+  padding-right: 10%;
+  
+}
+.head-img img{
+   height: 438px;
+   width: 556.01px;
+}
+/* --------------- */
+/* ------top part end-------- */
+/* ------------------ */
+
+/* ------------------ */
+/* ------player style------- */
+/* -------------------------- */
+
+.container-two{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+}
+.container-two{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.container-two div{
+  height: 400px;
+  width: 330px;
+  border: 1px solid #fff;
+  margin-top: 15%;
+  box-shadow: 3px 3px 3px 3px gainsboro;
+  
+}
+.neymar{
+  padding: 10px;
+}
+ .neymar img{
+  height: 250px;
+  width: 330px;
+  
+}
+.messi{
+  padding: 10px;
+}
+ .messi img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.ronaldo{
+  padding: 10px;
+}
+.ronaldo img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.dibbala{
+  padding: 10px;
+}
+.dibbala img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.ozil{
+  padding: 10px;
+}
+.ozil img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.icardi{
+  padding: 10px;
+}
+.icardi img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.dimaria{
+  padding: 10px;
+}
+.dimaria img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}  
+.mbappe{
+  padding: 10px;
+}
+.mbappe img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.salah{
+  padding: 10px;
+}
+.salah img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.harry{
+  padding: 10px;
+}
+.harry img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.bruney{
+  padding: 10px;
+}
+.bruney img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+.cutinho{
+  padding: 10px;
+}
+.cutinho img{
+  height: 250px;
+  width: 310px;
+  padding: 10px;
+}
+p{
+  color: #6C6C6C;
+}
+
+/* --------------- */
+/* ------player style end------ */
+/* ----------------- */
+
+/* ----------- */
+/* -----last part--------- */
+/* --------------- */
+.copa-america{
+  display: flex;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.copa-text{
+  height: 309px;
+  width: 466px;
+  margin-top: 80px;
+}
+.copa-text p{
+  margin-bottom: 50px;
+}
+.copa-highlights img{
+    height: 427px;
+    width: 567px;
+   margin-left: 60px;
+}
+/* ---------------- */
+/* -------footer------- */
+/* ------------------ */
+.footer-logo{
+  height: 80px;
+   width: 300px; 
+  align-items: center;
+   position: absolute;
+   right: 530px;
+}
+.icon{
+  align-items: center;
+  position: absolute;
+  right: 600px;
+  margin-top: 80px;
+}
+.icon img{
+  height: 30px;
+  width: 30px;
+}
+/* ---------The End-------- */
