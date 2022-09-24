@@ -208,9 +208,12 @@ p{
 /* -----last part--------- */
 /* --------------- */
 .copa-america{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-left: 10%;
   margin-top: 100px;
+  height: 100%;
+  width: 80vh;
 }
 .copa-text{
   height: 309px;
@@ -250,9 +253,24 @@ p{
 /* ----media queries------ */
 /* For mobile devices */
 @media only screen  and (max-width:688px) {
+  .container-two div{
+    height: 300px;
+    width: 250px;
+    border: 1px solid #fff;
+    margin-top: 15%;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+    }
+    .login{
+      display: none;
+    }
+    .container-two div img{
+      height: 140px;
+      width: 240px;
+    }
   .container-two{
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
+    
   }
   .information{
     display: grid;
@@ -286,8 +304,13 @@ p{
   right: 300px;
 }
 .copa-highlights img{
-  height: 300px;
-    width: 400px;
+  height: 200px;
+    width: 300px;
+}
+.copa-text{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 200px;
 }
 
 }
